@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>سناك أبو الفاروق | أشهى السندويشات في ضاحية قدسيا</title>
+  <meta name="description" content="سناك أبو الفاروق - منذ أكثر من 10 سنوات نقدم أشهى السندويشات بجودة عالية وطعم مميز وأسعار مناسبة في ضاحية قدسيا. سندويشات الكريسبي والاسكالوب وطوكيو المشوي." />
+  <meta property="og:title" content="سناك أبو الفاروق" />
+  <meta property="og:description" content="أشهى السندويشات بجودة عالية وطعم مميز وأسعار مناسبة." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/assets/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <!-- ========================= NAVBAR ========================= -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-brand" aria-label="سناك أبو الفاروق">
+        <img src="/assets/logo.png" alt="شعار سناك أبو الفاروق" class="nav-logo" width="80" height="80" />
+        <span class="nav-brand-text">سناك</span>
+        <span class="nav-brand-text" style="color: #cd1819;">أبو</span>
+        <span class="nav-brand-text" style="color: #ff8a08;">الفاروق</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="القائمة الرئيسية">
+        <a href="#home" class="nav-link active" data-section="home">الرئيسية</a>
+        <a href="#about" class="nav-link" data-section="about">من نحن</a>
+        <a href="#menu" class="nav-link" data-section="menu">المنيو</a>
+        <a href="#contact" class="nav-link" data-section="contact">تواصل معنا</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  
+
+  <!-- ========================= HERO ========================= -->
+  <section class="hero" id="home">
+    <div class="map-pin1">
+      <a href="https://maps.app.goo.gl/a7xAj3om4etqap828" target="_blank">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <h3 class="pin">الأقرب لقلبك</h3>
+      </a>
+    </div>
+    <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <img src="/assets/logo.png" alt="شعار سناك أبو الفاروق" class="hero-logo" width="240" height="240" />
+      <h1 class="hero-title">سناك أبو الفاروق</h1>
+      <p class="hero-desc">منذ أكثر من 10 سنوات نقدم أشهى السندويشات بجودة عالية وطعم مميز وأسعار مناسبة.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">استعرض المنيو</a>
+        <a href="#contact" class="btn btn-outline">اطلب الآن</a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  
+
+  <!-- ========================= ABOUT ========================= -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">من نحن</span>
+        <h2 class="section-title">قصة طعم لا يُنسى</h2>
+      </div>
+      <div class="about-body reveal">
+        <p>منذ أكثر من 10 سنوات، يقدم سناك أبو الفاروق أشهى السندويشات في ضاحية قدسيا، مع التركيز على الطعم المميز والجودة العالية والأسعار المقبولة.</p>
+        <p>يشتهر المطعم بسندويشات الكريسبي والاسكالوب، بالإضافة إلى سندويش طوكيو المشوي.</p>
+      </div>
+      <div class="features">
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          </div>
+          <h3>طعم مميز</h3>
+          <p>وصفات خاصة ونكهات لا تجدها إلا عندنا.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+          </div>
+          <h3>جودة عالية</h3>
+          <p>مكونات طازجة يومياً ونظافة تامة.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>أسعار مناسبة</h3>
+          <p>جودة تستحقها بأسعار في متناول الجميع.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </div>
+          <h3>خبرة أكثر من 10 سنوات</h3>
+          <p>ثقة زبائننا هي رأس مالنا الحقيقي.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= MENU ========================= -->
+  <section class="section menu" id="menu">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">المنيو</span>
+        <h2 class="section-title">اختر ما يشتهيه قلبك</h2>
+      </div>
+
+      <!-- Main category tabs -->
+      <div class="tabs" id="mainTabs" role="tablist" aria-label="تصنيفات المنيو"></div>
+
+      <!-- Sub category tabs (level 1) -->
+      <div class="subtabs" id="subTabs" role="tablist" aria-label="تصنيفات فرعية" hidden></div>
+
+      <!-- Sub category tabs (level 2) -->
+      <div class="subtabs subtabs-2" id="subTabs2" role="tablist" aria-label="تصنيفات فرعية إضافية" hidden></div>
+
+      <!-- Cards grid -->
+      <div class="cards-grid" id="cardsGrid" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- ========================= CONTACT ========================= -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">تواصل معنا</span>
+        <h2 class="section-title">نحن بانتظارك</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <div class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>العنوان</h3>
+          <p>ضاحية قدسيا - جزيرة E1<br />دوار تروي - خلف مول ابتسامة التوفير</p>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h3>الهاتف</h3>
+          <p>
+            <a href="tel:0948571834" class="contact-link">‪0948571834‬ (موبايل)</a><br />
+            <a href="tel:0113458583" class="contact-link">‪0113458583‬ (أرضي)</a>
+          </p>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+          </div>
+          <h3>البريد الإلكتروني</h3>
+          <p><a href="mailto:ssnakaboalfarok@gmail.com" class="contact-link">ssnakaboalfarok@gmail.com</a></p>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </div>
+          <h3>ساعات العمل</h3>
+          <p>من الساعة 10 صباحاً<br />حتى الساعة 11:30 ليلاً</p>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+          </div>
+          <h3>كونو جزء من عيلة أبو الفاروق</h3>
+          <div class="socials">
+            <a href="https://www.facebook.com/share/1Er1VzhPzL/" target="_blank" rel="noopener" class="social-btn face"  aria-label="فيسبوك">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0 0 22 12z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/snak_abo_alfarok" target="_blank" rel="noopener" class="social-btn insta" aria-label="انستغرام">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <a href="https://maps.app.goo.gl/a7xAj3om4etqap828" target="_blank" rel="noopener" class="contact-card map-card reveal" aria-label="افتح الموقع على خرائط جوجل">
+          <div class="map-pin" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>موقعنا على الخريطة</h3>
+          <p>اضغط لفتح خرائط جوجل والوصول إلينا</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= FOOTER ========================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="/assets/logo.png" alt="شعار سناك أبو الفاروق" width="64" height="64" />
+        <p>&copy; 2026 جميع الحقوق محفوظة لسناك أبو الفاروق</p>
+      </div>
+      <div class="footer-dev">
+        <span class="dev-label">تطوير</span>
+        <p class="dev-name">Eng.Yaser Al-Halabi</p>
+        <p>
+          <a href="tel:0932741049" class="contact-link">‪0932741049‬</a>
+          <span class="dot">•</span>
+          <a href="mailto:yaseralhalabi43@gmail.com" class="contact-link">yaseralhalabi43@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================= IMAGE ZOOM MODAL ========================= -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="معاينة الصورة" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="إغلاق">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <img src="/placeholder.svg" alt="معاينة الطبق" class="lightbox-img" id="lightboxImg" />
+  </div>
+
+  <script type="module" src="/hero.js"></script>
+  <script src="/menu-data.js"></script>
+  <script src="/app.js"></script>
+
+</body>
+</html>

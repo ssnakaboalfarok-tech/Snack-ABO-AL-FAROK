@@ -1,0 +1,16 @@
+{
+  "name": "snak-abo-alfarok",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium Arabic restaurant landing page for سناك أبو الفاروق",
+  "scripts": {
+    "dev": "sirv . --host 0.0.0.0 --port 3000 --dev --no-clear",
+    "start": "sirv . --host 0.0.0.0 --port 3000 --no-clear"
+  },
+  "devDependencies": {
+    "sirv-cli": "^3.0.0"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
+  }
+}
