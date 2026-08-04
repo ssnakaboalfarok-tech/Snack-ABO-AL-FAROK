@@ -307,6 +307,31 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.2; font-weight: 800; 
 }
 
 
+/* ================= Install Window ================= */
+
+.install-box {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #111;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  z-index: 9999;
+  display: none;
+  text-align: center;
+}
+
+.install-box button {
+  margin: 8px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
 
 /* ================= FOOTER ================= */
 .footer { background: var(--black); border-block-start: 1px solid #ff8a08; padding-block: 40px; }

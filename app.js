@@ -31,6 +31,49 @@ if ("serviceWorker" in navigator) {
   });
 }
 
+// =============== Install Window ===============
+window.addEventListener("DOMContentLoaded", () => {
+
+  let deferredPrompt;
+
+const installBox = document.getElementById("installBox");
+const installBtn = document.getElementById("installBtn");
+const closeInstall = document.getElementById("closeInstall");
+
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+
+  setTimeout(() => {
+    installBox.style.display = "block";
+  }, 15000);
+});
+
+
+installBtn.addEventListener("click", async () => {
+  if (!deferredPrompt) return;
+
+  deferredPrompt.prompt();
+
+  const result = await deferredPrompt.userChoice;
+
+  if (result.outcome === "accepted") {
+    console.log("Installed");
+  }
+
+  deferredPrompt = null;
+  installBox.style.display = "none";
+});
+
+
+closeInstall.addEventListener("click", () => {
+  installBox.style.display = "none";
+});
+  
+});
+
+
 (function () {
   "use strict";
 
