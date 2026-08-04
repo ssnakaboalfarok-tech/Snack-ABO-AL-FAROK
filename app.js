@@ -31,47 +31,8 @@ if ("serviceWorker" in navigator) {
   });
 }
 
-// =============== Install Window ===============
-window.addEventListener("DOMContentLoaded", () => {
-
-  let deferredPrompt;
-
-const installBox = document.getElementById("installBox");
-const installBtn = document.getElementById("installBtn");
-const closeInstall = document.getElementById("closeInstall");
 
 
-window.addEventListener("beforeinstallprompt", (e) => {
-  e.preventDefault();
-  deferredPrompt = e;
-
-  setTimeout(() => {
-    installBox.style.display = "block";
-  }, 15000);
-});
-
-
-installBtn.addEventListener("click", async () => {
-  if (!deferredPrompt) return;
-
-  deferredPrompt.prompt();
-
-  const result = await deferredPrompt.userChoice;
-
-  if (result.outcome === "accepted") {
-    console.log("Installed");
-  }
-
-  deferredPrompt = null;
-  installBox.style.display = "none";
-});
-
-
-closeInstall.addEventListener("click", () => {
-  installBox.style.display = "none";
-});
-  
-});
 
 
 (function () {
@@ -154,6 +115,29 @@ closeInstall.addEventListener("click", () => {
   const subTabs = document.getElementById("subTabs");
   const subTabs2 = document.getElementById("subTabs2");
   const grid = document.getElementById("cardsGrid");
+
+  grid.addEventListener("click", (e) => {
+
+  const zoomBtn = e.target.closest(".zoom-btn");
+
+  if (zoomBtn) {
+    openLightbox(
+      zoomBtn.dataset.img,
+      zoomBtn.dataset.name
+    );
+    return;
+  }
+
+
+  const orderBtn = e.target.closest(".order-btn");
+
+  if (orderBtn) {
+    document
+      .getElementById("contact")
+      .scrollIntoView({ behavior: "smooth" });
+  }
+
+});
 
   const formatPrice = (n) =>
     n.toLocaleString("en-US"); // grouped digits, kept LTR-friendly
@@ -303,15 +287,15 @@ closeInstall.addEventListener("click", () => {
       });
 
       // zoom
-      card.querySelector(".zoom-btn").addEventListener("click", (e) => {
-        const t = e.currentTarget;
-        openLightbox(t.dataset.img, t.dataset.name);
-      });
+      // card.querySelector(".zoom-btn").addEventListener("click", (e) => {
+      //   const t = e.currentTarget;
+      //   openLightbox(t.dataset.img, t.dataset.name);
+      // });
 
-      // order -> scroll to contact
-      card.querySelector(".order-btn").addEventListener("click", () => {
-        document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
-      });
+      // // order -> scroll to contact
+      // card.querySelector(".order-btn").addEventListener("click", () => {
+      //   document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+      // });
     });
   }
 
@@ -346,6 +330,8 @@ closeInstall.addEventListener("click", () => {
     selectCategory(MENU.categories[0].id);
   }
 })();
+
+// =============== Install Window ===============
 
 let deferredPrompt;
 

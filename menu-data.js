@@ -36,7 +36,7 @@ window.MENU = {
 
   items: [
     /* ---------- سندويشات: مقلي ---------- */
-    { cat: "sandwiches", sub: "fried", name: "سندويش كريسبي", ingredients: "مايونيز - خس - مخلل - قطع كريسبي", price: 35000, img: "/images/sandwich-fried.png" },
+    { cat: "sandwiches", sub: "fried", name: "سندويش كريسبي", ingredients: "مايونيز - خس - مخلل - قطع كريسبي", price: 35000, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "fried", name: "سندويش اسكالوب", ingredients: "مايونيز - خس - مخلل - كول سلو - شرائح اسكالوب", price: 35000, img: "/images/sandwich-fried.png" },
     { cat: "sandwiches", sub: "fried", name: "سندويش زنجر", ingredients: "مايونيز - خس - مخلل - قطع دجاج - روستو - صوص حار - ذرة", price: 35000, img: "/images/sandwich-fried.png" },
     { cat: "sandwiches", sub: "fried", name: "سندويش تشكن فلاي", ingredients: "مايونيز - خس - صوص الكوكتيل - سلامي - باربكيو - شيدر", price: 40000, img: "/images/sandwich-fried.png" },
