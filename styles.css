@@ -507,46 +507,24 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.2; font-weight: 800; 
 
 }
 
-@media (max-width: 415px) {
+@media (max-width: 416px) {
 
-  /* .features { grid-template-columns: 1fr; }
-  .btn { padding: 13px 24px; font-size: .98rem; }
-
-  .map-pin1 a{
-    top: 185px;
-  left: -350px;
-  }
-
-  .map-pin1 a svg{
-    width: 31px;
-    height: 31px;
-  }
-
-  .map-pin1 a h3{
-    font-size: 11px;
-  }
-
-  .nav-logo{
-    width: 70px;
-    height: 70px;
-  }
-
-  .hero-logo{
-    width: 140px;
-    height: 140px;
-  } */
-
-
-
-.footer-brand img {
-    margin-bottom: 10px;
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
-/* .footer-brand p {
-    margin: 0;
-    font-size: 13px;
-    line-height: 1.4;
-} */
+.footer-brand img {
+  margin: 0;
+}
+
+.footer-brand p {
+  margin: 0;
+  text-align: center;
+  line-height: 1.5;
+}
 
 }
 
