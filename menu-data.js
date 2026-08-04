@@ -41,11 +41,11 @@ window.MENU = {
     { cat: "sandwiches", sub: "fried", name: "سندويش زنجر", ingredients: "مايونيز - خس - مخلل - قطع دجاج - روستو - صوص حار - ذرة", price: 35000, img: "/images/sandwich-fried.png" },
     { cat: "sandwiches", sub: "fried", name: "سندويش تشكن فلاي", ingredients: "مايونيز - خس - صوص الكوكتيل - سلامي - باربكيو - شيدر", price: 40000, img: "/images/sandwich-fried.png" },
     { cat: "sandwiches", sub: "fried", name: "سندويش سوبريم", ingredients: "مايونيز - خس - سلطة - مخلل - ذرة - روسنو - قشقوان - صوص الكوكتيل", price: 40000, img: "/images/sandwich-fried.png" },
-    { cat: "sandwiches", sub: "fried", name: "سندويش روما", ingredients: "قطعتين كريسبي - مايونيز - خس - ذرة - روستو - قشقوان", price: 45000, img: "/images/sandwich-fried.png" },
+    { cat: "sandwiches", sub: "fried", name: "سندويش روما", ingredients: "قطعتين كريسبي - هوت دوك - شيدر - شيدر - قشقوان - بشميل - ذرة", price: 45000, img: "/images/sandwich-fried.png" },
     { cat: "sandwiches", sub: "fried", name: "سندويش كرانشي", ingredients: "قطعتين كريسبي - مايونيز - خس - ذرة - روستو - قشقوان", price: 40000, img: "/images/sandwich-fried.png" },
     { cat: "sandwiches", sub: "fried", name: "سندويش كوردون", ingredients: "مايونيز - بطاطا - فطر - صوص الشيف", price: 40000, img: "/images/sandwich-fried.png" },
     { cat: "sandwiches", sub: "fried", name: "سندويش دراغون", ingredients: "مايونيز - خس - ذرة - روستو - شيدر - هالبينو - سبايسي", price: 40000, img: "/images/sandwich-fried.png" },
-    { cat: "sandwiches", sub: "fried", name: "سندويش تشيللو", ingredients: "قطعتين كريسبي - فليفلة - بصل - مكس تشيز - صوص بوفلو - مايونيز - خس - مخلل - ذرة - صوص الشيف ", price: 45000, img: "/images/sandwich-fried.png" },
+    { cat: "sandwiches", sub: "fried", name: "سندويش تشيللو", ingredients: "قطعتين كريسبي - فليفلة - بصل - مكس تشيز - صوص بوفلو - مايونيز - خس - مخلل - ذرة ", price: 45000, img: "/images/sandwich-fried.png" },
     { cat: "sandwiches", sub: "fried", name: "سندويش بطاطا", ingredients: "كتشب - مايونيز - سلطة", price: 15000, img: "/images/sandwich-fried.png" },
     { cat: "sandwiches", sub: "fried", name: "سندويش بطاطا مع جبنة", ingredients: "كتشب - مايونيز - سلطة - قشقوان", price: 20000, img: "/images/sandwich-fried.png" },
 
@@ -92,8 +92,8 @@ window.MENU = {
     { cat: "salads", name: "سلطة ذرة", ingredients: "صوص الشيف - مخلل - فطر", price: 25000, img: "/images/salad.png" },
     { cat: "salads", name: "سلطة  كول سلو علبة 200غ", ingredients: "ملفوف - جزر - ميونيز", price: 15000, img: "/images/salad.png" },
     { cat: "salads", name: "سلطة  كول سلو صحن 500غ", ingredients: "ملفوف - جزر - ميونيز", price: 20000, img: "/images/salad.png" },
-    { cat: "salads", name: " سلطة معكرونا علبة 200غ", ingredients: "جزر - فليفلة - صوص كوكتيل", price: 15000, img: "/images/salad.png" },
-    { cat: "salads", name: " سلطة معكرونا علبة 500غ", ingredients: "جزر - فليفلة - صوص كوكتيل", price: 20000, img: "/images/salad.png" },
+    { cat: "salads", name: " سلطة معكرونا علبة صغيرة", ingredients: "جزر - فليفلة - صوص كوكتيل", price: 15000, img: "/images/salad.png" },
+    { cat: "salads", name: " سلطة معكرونا علبة كبيرة", ingredients: "جزر - فليفلة - صوص كوكتيل", price: 20000, img: "/images/salad.png" },
 
     /* ---------- مقبلات ---------- */
     { cat: "appetizers", name: "علبة بطاطا", ingredients: "بطاطا مقرمشة ذهبية ", price: 15000, img: "/images/appetizer.png" },
