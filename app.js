@@ -346,3 +346,39 @@ closeInstall.addEventListener("click", () => {
     selectCategory(MENU.categories[0].id);
   }
 })();
+
+let deferredPrompt;
+
+const installBtn = document.getElementById("installBtn");
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+
+  deferredPrompt = e;
+
+  // إظهار زر التثبيت
+  installBtn.style.display = "block";
+});
+
+
+installBtn.addEventListener("click", async () => {
+
+  if (!deferredPrompt) return;
+
+  deferredPrompt.prompt();
+
+  const result = await deferredPrompt.userChoice;
+
+  if (result.outcome === "accepted") {
+    console.log("App installed");
+  }
+
+  deferredPrompt = null;
+
+  installBtn.style.display = "none";
+});
+
+
+window.addEventListener("appinstalled", () => {
+  installBtn.style.display = "none";
+});

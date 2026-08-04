@@ -331,6 +331,17 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.2; font-weight: 800; 
   cursor: pointer;
 }
 
+.install-btn {
+  display: none;
+  background: var(--orange);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
 
 
 /* ================= FOOTER ================= */
