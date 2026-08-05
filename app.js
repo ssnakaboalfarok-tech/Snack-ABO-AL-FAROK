@@ -331,38 +331,111 @@ if ("serviceWorker" in navigator) {
   }
 })();
 
-// =============== Install Window ===============
+// =============== Install App ===============
 
 let deferredPrompt;
 
-const installBtn = document.getElementById("installBtn");
+const navInstallBtn = document.getElementById("installBtn");
+const popupInstallBtn = document.getElementById("popupInstallBtn");
 const installBox = document.getElementById("installBox");
+const closeInstall = document.getElementById("closeInstall");
 
+
+// عندما يصبح التطبيق قابل للتثبيت
 window.addEventListener("beforeinstallprompt", (e) => {
+
   e.preventDefault();
 
   deferredPrompt = e;
 
-  installBtn.style.display = "block";
+  // إظهار زر الـ Navbar
+  if (navInstallBtn) {
+    navInstallBtn.style.display = "block";
+  }
 
+  // إظهار الرسالة بعد 15 ثانية
   setTimeout(() => {
-    if (deferredPrompt) {
+
+    if (deferredPrompt && installBox) {
       installBox.style.display = "block";
     }
+
   }, 15000);
+
 });
 
 
-installBtn.addEventListener("click", async () => {
+// دالة التثبيت
+async function installApp() {
 
-  if (!deferredPrompt) return;
+  if (!deferredPrompt) {
+    return;
+  }
 
   deferredPrompt.prompt();
 
-  await deferredPrompt.userChoice;
+  const result = await deferredPrompt.userChoice;
+
+  if (result.outcome === "accepted") {
+    console.log("App installed");
+  }
 
   deferredPrompt = null;
 
-  installBox.style.display = "none";
-  installBtn.style.display = "none";
+  if (installBox) {
+    installBox.style.display = "none";
+  }
+
+  if (navInstallBtn) {
+    navInstallBtn.style.display = "none";
+  }
+
+}
+
+
+// زر الـ Navbar
+if (navInstallBtn) {
+
+  navInstallBtn.addEventListener("click", () => {
+    installApp();
+  });
+
+}
+
+
+// زر داخل الرسالة
+if (popupInstallBtn) {
+
+  popupInstallBtn.addEventListener("click", () => {
+    installApp();
+  });
+
+}
+
+
+// زر لاحقاً
+if (closeInstall) {
+
+  closeInstall.addEventListener("click", () => {
+
+    installBox.style.display = "none";
+
+  });
+
+}
+
+
+// عند تثبيت التطبيق
+window.addEventListener("appinstalled", () => {
+
+  if (installBox) {
+    installBox.style.display = "none";
+  }
+
+  if (navInstallBtn) {
+    navInstallBtn.style.display = "none";
+  }
+
+  console.log("Installed successfully");
+
 });
