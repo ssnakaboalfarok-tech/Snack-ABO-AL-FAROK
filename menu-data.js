@@ -66,7 +66,7 @@ window.MENU = {
     { cat: "sandwiches", sub: "grilled", name: "سندويش برغر دجاج مع جبنة", ingredients: "مايونيز - مخلل - كول سلو - كتشب - خس - بطاطا - شيدر", price: 350, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "grilled", name: "سندويش برغر دجاج مع بيض", ingredients: "مايونيز - مخلل - كول سلو - كتشب - خس - بطاطا - بيض", price: 350, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "grilled", name: "سندويش برغر دجاج كامل", ingredients: "مايونيز - مخلل - كول سلو - كتشب - خس - بطاطا - بيض - شيدر", price: 400, img: "/images/sandwich-meat.webp" },
-    { cat: "sandwiches", sub: "grilled", name: "سندويش تشكن سبسيال", ingredients: "مايونيز - خس - سلامي - شيدر - باربكيور - ذرة - صوص كوكتيل - قطع دجاج مشوية", price: 400, img: "/images/sandwich-meat.webp" },
+    { cat: "sandwiches", sub: "grilled", name: "سندويش تشكن سبسيال", ingredients: "مايونيز - خس - سلامي - شيدر - باربكيور - ذرة - قطع دجاج مشوية", price: 400, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "grilled", name: "سندويش شاورما سمون", ingredients: "كريم ثوم - مخلل - دبس رمان - صوص حار - قطع دجاج مشوية", price: 250, img: "/images/sandwich-meat.webp" },
     
    

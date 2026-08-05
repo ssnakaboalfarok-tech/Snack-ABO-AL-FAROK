@@ -336,14 +336,20 @@ if ("serviceWorker" in navigator) {
 let deferredPrompt;
 
 const installBtn = document.getElementById("installBtn");
+const installBox = document.getElementById("installBox");
 
 window.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
 
   deferredPrompt = e;
 
-  // إظهار زر التثبيت
   installBtn.style.display = "block";
+
+  setTimeout(() => {
+    if (deferredPrompt) {
+      installBox.style.display = "block";
+    }
+  }, 15000);
 });
 
 
@@ -353,18 +359,10 @@ installBtn.addEventListener("click", async () => {
 
   deferredPrompt.prompt();
 
-  const result = await deferredPrompt.userChoice;
-
-  if (result.outcome === "accepted") {
-    console.log("App installed");
-  }
+  await deferredPrompt.userChoice;
 
   deferredPrompt = null;
 
-  installBtn.style.display = "none";
-});
-
-
-window.addEventListener("appinstalled", () => {
+  installBox.style.display = "none";
   installBtn.style.display = "none";
 });
