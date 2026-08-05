@@ -333,109 +333,112 @@ if ("serviceWorker" in navigator) {
 
 // =============== Install App ===============
 
-let deferredPrompt;
+// =============== Install App ===============
 
-const navInstallBtn = document.getElementById("installBtn");
-const popupInstallBtn = document.getElementById("popupInstallBtn");
-const installBox = document.getElementById("installBox");
-const closeInstall = document.getElementById("closeInstall");
+let deferredPrompt = null;
 
 
-// عندما يصبح التطبيق قابل للتثبيت
-window.addEventListener("beforeinstallprompt", (e) => {
+window.addEventListener("DOMContentLoaded", () => {
 
-  e.preventDefault();
+  const navInstallBtn = document.getElementById("installBtn");
+  const popupInstallBtn = document.getElementById("popupInstallBtn");
+  const installBox = document.getElementById("installBox");
+  const closeInstall = document.getElementById("closeInstall");
 
-  deferredPrompt = e;
 
-  // إظهار زر الـ Navbar
-  if (navInstallBtn) {
-    navInstallBtn.style.display = "block";
-  }
+  window.addEventListener("beforeinstallprompt", (e) => {
 
-  // إظهار الرسالة بعد 15 ثانية
-  setTimeout(() => {
+    console.log("INSTALL EVENT FIRED");
 
-    if (deferredPrompt && installBox) {
-      installBox.style.display = "block";
+    e.preventDefault();
+
+    deferredPrompt = e;
+
+
+    if (navInstallBtn) {
+      navInstallBtn.style.display = "block";
     }
 
-  }, 15000);
+
+    setTimeout(() => {
+
+      if (deferredPrompt && installBox) {
+
+        installBox.style.display = "block";
+
+      }
+
+    },15000);
+
+
+  });
+
+
+
+  async function installApp(){
+
+    if(!deferredPrompt){
+      console.log("No install prompt");
+      return;
+    }
+
+
+    deferredPrompt.prompt();
+
+
+    const result = await deferredPrompt.userChoice;
+
+
+    console.log(result.outcome);
+
+
+    deferredPrompt = null;
+
+
+    if(installBox){
+      installBox.style.display="none";
+    }
+
+
+    if(navInstallBtn){
+      navInstallBtn.style.display="none";
+    }
+
+  }
+
+
+
+  if(navInstallBtn){
+
+    navInstallBtn.addEventListener("click", installApp);
+
+  }
+
+
+  if(popupInstallBtn){
+
+    popupInstallBtn.addEventListener("click", installApp);
+
+  }
+
+
+  if(closeInstall){
+
+    closeInstall.addEventListener("click",()=>{
+
+      installBox.style.display="none";
+
+    });
+
+  }
+
 
 });
 
 
-// دالة التثبيت
-async function installApp() {
 
-  if (!deferredPrompt) {
-    return;
-  }
+window.addEventListener("appinstalled",()=>{
 
-  deferredPrompt.prompt();
-
-  const result = await deferredPrompt.userChoice;
-
-  if (result.outcome === "accepted") {
-    console.log("App installed");
-  }
-
-  deferredPrompt = null;
-
-  if (installBox) {
-    installBox.style.display = "none";
-  }
-
-  if (navInstallBtn) {
-    navInstallBtn.style.display = "none";
-  }
-
-}
-
-
-// زر الـ Navbar
-if (navInstallBtn) {
-
-  navInstallBtn.addEventListener("click", () => {
-    installApp();
-  });
-
-}
-
-
-// زر داخل الرسالة
-if (popupInstallBtn) {
-
-  popupInstallBtn.addEventListener("click", () => {
-    installApp();
-  });
-
-}
-
-
-// زر لاحقاً
-if (closeInstall) {
-
-  closeInstall.addEventListener("click", () => {
-
-    installBox.style.display = "none";
-
-  });
-
-}
-
-
-// عند تثبيت التطبيق
-window.addEventListener("appinstalled", () => {
-
-  if (installBox) {
-    installBox.style.display = "none";
-  }
-
-  if (navInstallBtn) {
-    navInstallBtn.style.display = "none";
-  }
-
-  console.log("Installed successfully");
+  console.log("App installed");
 
 });
