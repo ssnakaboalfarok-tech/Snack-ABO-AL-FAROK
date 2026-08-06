@@ -142,15 +142,16 @@ window.MENU = {
 
 
     /* ---------- وجبات: جامبو ---------- */
-    { cat: "meals", sub: "jumbo", name: "وجبة جامبو كريسبي", ingredients: "12 قطعة كريسبي - اكسترا بطاطا - ميونيز 200غ - كول سلو 200غ", price: 1250, img: "/images/sandwich-meat.webp" },
-    { cat: "meals", sub: "jumbo", name: "وجبة جامبو سكالوب", ingredients: "12 قطعة اسكالوب - اكسترا بطاطا - ميونيز 200غ - كول سلو 200غ", price: 1250, img: "/images/sandwich-meat.webp" },
-    { cat: "meals", sub: "jumbo", name: "وجبة جامبو زنجر", ingredients: "12 قطعة زنجر(سبايسي) - اكسترا بطاطا - ميونيز 200غ - كول سلو 200غ - روستو - ذرة", price: 1400, img: "/images/sandwich-meat.webp" },
+    { cat: "meals", sub: "jumbo", name: "وجبة جامبو كريسبي", ingredients: "10 قطع كريسبي - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/sandwich-meat.webp" },
+    { cat: "meals", sub: "jumbo", name: "وجبة جامبو اسكالوب", ingredients: "10 قطع اسكالوب - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/sandwich-meat.webp" },
+    { cat: "meals", sub: "jumbo", name: "وجبة جامبو زنجر", ingredients: "10 قطع زنجر(سبايسي - ذرة) - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/sandwich-meat.webp" },
+    { cat: "meals", sub: "jumbo", name: "وجبة جامبو سوبربم ميني", ingredients: "8 قطع سوبريم ميني - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/sandwich-meat.webp" },
 
     /* ---------- سلطات ---------- */
     { cat: "salads", name: "سلطة سيزر ", ingredients: "خس - صوص سيزر - دجاج - ميني توست - جبنة موزريلا", price: 400, img: "/images/sandwich-meat.webp" },
     { cat: "salads", name: "سلطة ذرة", ingredients: "صوص الشيف - مخلل - فطر", price: 250, img: "/images/sandwich-meat.webp" },
-    { cat: "salads", name: "سلطة  كول سلو علبة 200غ", ingredients: "ملفوف - جزر - ميونيز", price: 150, img: "/images/sandwich-meat.webp" },
-    { cat: "salads", name: "سلطة  كول سلو صحن 500غ", ingredients: "ملفوف - جزر - ميونيز", price: 200, img: "/images/sandwich-meat.webp" },
+    { cat: "salads", name: "سلطة  كول سلو علبة 200غ", ingredients: "ملفوف - جزر - مايونيز", price: 150, img: "/images/sandwich-meat.webp" },
+    { cat: "salads", name: "سلطة  كول سلو صحن 500غ", ingredients: "ملفوف - جزر - مايونيز", price: 200, img: "/images/sandwich-meat.webp" },
     { cat: "salads", name: " سلطة معكرونا باردة علبة صغيرة", ingredients: "جزر - فليفلة - صوص كوكتيل", price: 150, img: "/images/sandwich-meat.webp" },
     { cat: "salads", name: " سلطة معكرونا باردة علبة كبيرة", ingredients: "جزر - فليفلة - صوص كوكتيل", price: 200, img: "/images/sandwich-meat.webp" },
 
