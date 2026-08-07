@@ -391,7 +391,7 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.2; font-weight: 800; 
   /* .map-card { grid-column: span ; } */
 
 
-  /* .nav-brand-text { display: none; } */
+  
   .nav-toggle { display: flex; }
   .nav-links {
     position: fixed; inset-block-start: var(--nav-h); inset-inline: 0;
@@ -423,7 +423,7 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.2; font-weight: 800; 
 }
 
 @media (max-width: 720px) {
-  
+  .nav-brand-text { display: none; }
 
   /* Hero: keep content fully visible, burger becomes subtle background */
   .hero-canvas { opacity: .5; }
