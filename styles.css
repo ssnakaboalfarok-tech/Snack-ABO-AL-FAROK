@@ -388,7 +388,7 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.2; font-weight: 800; 
   .features { grid-template-columns: repeat(2, 1fr); }
   .cards-grid { grid-template-columns: repeat(2, 1fr); }
   .contact-grid { grid-template-columns: repeat(2, 1fr); }
-  /* .map-card { grid-column: span ; } */
+  .map-card { grid-column: span 2; }
 
 
   
