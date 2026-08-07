@@ -36,16 +36,16 @@ window.MENU = {
 
   items: [
     /* ---------- سندويشات: مقلي ---------- */
-    { cat: "sandwiches", sub: "fried", name: "سندويش كريسبي", ingredients: "مايونيز - خس - مخلل - قطع كريسبي", price: 350, img: "/images/sandwich-meat.webp" },
+    { cat: "sandwiches", sub: "fried", name: "سندويش كريسبي", ingredients: "مايونيز - خس - مخلل - قطع كريسبي - كول سلو", price: 350, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "fried", name: "سندويش اسكالوب", ingredients: "مايونيز - خس - مخلل - كول سلو - شرائح اسكالوب", price: 350, img: "/images/sandwich-meat.webp" },
-    { cat: "sandwiches", sub: "fried", name: "سندويش زنجر", ingredients: "مايونيز - خس - مخلل - قطع دجاج - روستو - صوص حار - ذرة - قطع كريسبي", price: 350, img: "/images/sandwich-meat.webp" },
-    { cat: "sandwiches", sub: "fried", name: "سندويش تشكن فلاي", ingredients: "مايونيز - خس - صوص الكوكتيل - سلامي - باربكيو - شيدر - قطع كريسبي", price: 400, img: "/images/sandwich-meat.webp" },
+    { cat: "sandwiches", sub: "fried", name: "سندويش زنجر", ingredients: "مايونيز - خس - مخلل - قطع دجاج - روستو - صوص حار - ذرة - قطع كريسبي - كول سلو", price: 350, img: "/images/sandwich-meat.webp" },
+    { cat: "sandwiches", sub: "fried", name: "سندويش تشكن فلاي", ingredients: "مايونيز - خس - صوص الكوكتيل - سلامي - باربكيو - شيدر - قطع كريسبي - كول سلو", price: 400, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "fried", name: "سندويش سوبريم", ingredients: "مايونيز - خس - كول سلو - ذرة - روستو - قشقوان - صوص الكوكتيل - قطع كريسبي", price: 400, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "fried", name: "سندويش روما", ingredients: "قطع كريسبي - هوت دوغ - شيدر - قشقوان - بشميل - ذرة - مايونيز - خس", price: 450, img: "/images/sandwich-meat.webp" },
-    { cat: "sandwiches", sub: "fried", name: "سندويش كرانشي", ingredients: "قطع كريسبي - مايونيز - خس - ذرة - روستو - قشقوان", price: 400, img: "/images/sandwich-meat.webp" },
+    { cat: "sandwiches", sub: "fried", name: "سندويش كرانشي", ingredients: "قطع كريسبي - مايونيز - خس - ذرة - روستو - قشقوان - كول سلو", price: 400, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "fried", name: "سندويش كوردون", ingredients: " مايونيز - بطاطا - فطر - قشقوان - بشميل -شرائح اسكالوب", price: 400, img: "/images/sandwich-meat.webp" },
-    { cat: "sandwiches", sub: "fried", name: "سندويش دراغون", ingredients: "مايونيز - خس - روستو - شيدر - هالبينو - سبايسي - قطع كريسبي", price: 400, img: "/images/sandwich-meat.webp" },
-    { cat: "sandwiches", sub: "fried", name: "سندويش تشيللو", ingredients: "قطع كريسبي - فليفلة - بصل - مكس تشيز - صوص سبايسي - مايونيز - خس - مخلل - ذرة ", price: 450, img: "/images/sandwich-meat.webp" },
+    { cat: "sandwiches", sub: "fried", name: "سندويش دراغون", ingredients: "مايونيز - خس - روستو - شيدر - هالبينو - سبايسي - قطع كريسبي - كول سلو", price: 400, img: "/images/sandwich-meat.webp" },
+    { cat: "sandwiches", sub: "fried", name: "سندويش تشيللو", ingredients: "قطع كريسبي - فليفلة - بصل - مكس تشيز - صوص سبايسي - مايونيز - خس - مخلل - ذرة - كول سلو", price: 450, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "fried", name: "سندويش بطاطا", ingredients: "كتشب - مايونيز - كول سلو", price: 150, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "fried", name: "سندويش بطاطا مع جبنة", ingredients: "ذرة - مايونيز - كول سلو - قشقوان", price: 200, img: "/images/sandwich-meat.webp" },
 
