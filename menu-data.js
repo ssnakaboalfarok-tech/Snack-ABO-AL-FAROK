@@ -36,7 +36,7 @@ window.MENU = {
 
   items: [
     /* ---------- سندويشات: مقلي ---------- */
-    { cat: "sandwiches", sub: "fried", name: "سندويش كريسبي", ingredients: "مايونيز - خس - مخلل - قطع كريسبي - كول سلو", price: 350, img: "/images/sandwich-meat.webp" },
+    { cat: "sandwiches", sub: "fried", name: "سندويش كريسبي", ingredients: "مايونيز - خس - مخلل - قطع كريسبي - كول سلو", price: 350, img: "/images/Gemini_Generated_Image_hotspbhotspbhots.png" },
     { cat: "sandwiches", sub: "fried", name: "سندويش اسكالوب", ingredients: "مايونيز - خس - مخلل - كول سلو - شرائح اسكالوب", price: 350, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "fried", name: "سندويش زنجر", ingredients: "مايونيز - خس - مخلل - قطع دجاج - روستو - صوص حار - ذرة - قطع كريسبي - كول سلو", price: 350, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "fried", name: "سندويش تشكن فلاي", ingredients: "مايونيز - خس - صوص الكوكتيل - سلامي - باربكيو - شيدر - قطع كريسبي - كول سلو", price: 400, img: "/images/sandwich-meat.webp" },
@@ -50,7 +50,7 @@ window.MENU = {
     { cat: "sandwiches", sub: "fried", name: "سندويش بطاطا مع جبنة", ingredients: "ذرة - مايونيز - كول سلو - قشقوان", price: 200, img: "/images/sandwich-meat.webp" },
 
     /* ---------- سندويشات: مشوي ---------- */
-    { cat: "sandwiches", sub: "grilled", name: "سندويش فرانشيسكو", ingredients: "مايونيز - مخلل - قطع دجاج مشوية - فطر - قشقوان - صوص الشيف - ذرة", price: 400, img: "/images/sandwich-meat.webp" },
+    { cat: "sandwiches", sub: "grilled", name: "سندويش فرانشيسكو", ingredients: "مايونيز - مخلل - قطع دجاج مشوية - فطر - قشقوان - صوص الشيف - ذرة", price: 400, img: "/images/Gemini_Generated_Image_hotspbhotspbhots.png" },
     { cat: "sandwiches", sub: "grilled", name: "سندويش فاهيتا", ingredients: "مايونيز - مخلل - فليفلة - ذرة - جزر - بصل - صوص HP - فطر - قشقوان - قطع دجاج مشوية", price: 400, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "grilled", name: "سندويش ماليزيا", ingredients: "مايونيز - مخلل - فطر - هوت دوغ - فليفلة - ذرة - صوص بوفلو - قشقوان - قطع دجاج مشوية", price: 400, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "grilled", name: "سندويش طوكيو", ingredients: "مايونيز - مخلل - فطر - هوت دوغ - سلامي - باربكيو - قشقوان - فليفلة - قطع دجاج مشوية", price: 400, img: "/images/sandwich-meat.webp" },
@@ -58,7 +58,7 @@ window.MENU = {
     { cat: "sandwiches", sub: "grilled", name: "سندويش مكسيكي", ingredients: "مايونيز - مخلل - بصل - فليفلة - ذرة - سبايسي - فطر - قشقوان - قطع دجاج مشوية", price: 400, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "grilled", name: "سندويش فانتازيا", ingredients: "كريم ثوم - مخلل - بصل - ذرة - باربكيو - قشقوان - قطع دجاج مشوية", price: 400, img: "/images/sandwich-meat.webp" },
 
-    { cat: "sandwiches", sub: "grilled", name: "سندويش تشكن ساب", ingredients: "كريم ثوم - خس - ذرة - قشقوان - دجاج ناعم", price: 400, img: "/images/sandwich-meat.webp" },
+    { cat: "sandwiches", sub: "grilled", name: "سندويش تشكن ساب", ingredients: "كريم ثوم - خس - ذرة - قشقوان - دجاج ناعم", price: 400, img: "/images/Gemini_Generated_Image_hotspbhotspbhots.png" },
     { cat: "sandwiches", sub: "grilled", name: "سندويش ماغنوم", ingredients: "مايونيز - مخلل - فطر - فليفلة - خردل - سلامي - قشقوان - قطع دجاج مشوية", price: 400, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "grilled", name: "سندويش شيش كلاسيك", ingredients: "مايونيز - مخلل - كول سلو - قطع دجاج مشوية - بطاطا", price: 350, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "grilled", name: "سندويش شيش مع جبنة", ingredients: "مايونيز - مخلل - كول سلو - قشقوان - قطع دجاج مشوية - بطاطا", price: 400, img: "/images/sandwich-meat.webp" },
@@ -72,7 +72,7 @@ window.MENU = {
    
 
     /* ---------- سندويشات: لحمة ---------- */
-    { cat: "sandwiches", sub: "meat", name: "سندويش برجر لحمة كلاسيك", ingredients: "مايونيز - مخلل - كول سلو - خس", price: 400, img: "/images/sandwich-meat.webp" },
+    { cat: "sandwiches", sub: "meat", name: "سندويش برجر لحمة كلاسيك", ingredients: "مايونيز - مخلل - كول سلو - خس", price: 400, img: "/images/Gemini_Generated_Image_hotspbhotspbhots.png" },
     { cat: "sandwiches", sub: "meat", name: "سندويش برجر لحمة مع بيض", ingredients: "مايونيز - مخلل - كول سلو - خس - بيض", price: 450, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "meat", name: "سندويش برجر لحمة مع جبنة", ingredients: "مايونيز - مخلل - كول سلو - خس - شيدر", price: 450, img: "/images/sandwich-meat.webp" },
     { cat: "sandwiches", sub: "meat", name: "سندويش برجر لحمة كامل", ingredients: "مايونيز - مخلل - كول سلو - خس - بيض - شيدر", price: 500, img: "/images/sandwich-meat.webp" },
@@ -82,7 +82,7 @@ window.MENU = {
     /* ---------- وجبات: شخص ---------- */
 
     // مقلية
-    { cat: "meals", sub: "single", sub2: "single-fried", name: "وجبة شخصية كريسبي", ingredients: "4 قطع كريسبي - كول سلو - بطاطا - مايونيز - كتشب حلو - كتشب حد - خبزة  ", price: 550, img: "/images/sandwich-meat.webp" },
+    { cat: "meals", sub: "single", sub2: "single-fried", name: "وجبة شخصية كريسبي", ingredients: "4 قطع كريسبي - كول سلو - بطاطا - مايونيز - كتشب حلو - كتشب حد - خبزة  ", price: 550, img: "/images/Gemini_Generated_Image_hotspbhotspbhots.png" },
     { cat: "meals", sub: "single", sub2: "single-fried", name: "وجبة شخصية اسكالوب", ingredients: "4 قطع اسكالوب - كول سلو - بطاطا - مايونيز - كتشب حلو - كتشب حد - خبزة  ", price: 550, img: "/images/sandwich-meat.webp" },
     { cat: "meals", sub: "single", sub2: "single-fried", name: "وجبة شخصية زنجر", ingredients: "3 قطع زنجر(سبايسي - روستو - ذرة) - كول سلو - بطاطا - مايونيز - كتشب حلو - كتشب حد - خبزة  ", price: 550, img: "/images/sandwich-meat.webp" },
     { cat: "meals", sub: "single", sub2: "single-fried", name: "وجبة شخصية سوبريم", ingredients: " قطعتين سوبريم(روستو - ذرة) - كول سلو - بطاطا - مايونيز - سوسيرة كوكتيل - كتشب حلو - كتشب حد - خبزة  ", price: 650, img: "/images/sandwich-meat.webp" },
