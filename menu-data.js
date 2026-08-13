@@ -144,10 +144,10 @@ window.MENU = {
 
 
     /* ---------- وجبات: جامبو ---------- */
-    { cat: "meals", sub: "jumbo", name: "وجبة جامبو كريسبي", ingredients: "10 قطع كريسبي - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/sandwich-meat.webp" },
-    { cat: "meals", sub: "jumbo", name: "وجبة جامبو اسكالوب", ingredients: "10 قطع اسكالوب - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/sandwich-meat.webp" },
-    { cat: "meals", sub: "jumbo", name: "وجبة جامبو زنجر", ingredients: "10 قطع زنجر(سبايسي - ذرة) - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/sandwich-meat.webp" },
-    { cat: "meals", sub: "jumbo", name: "وجبة جامبو سوبريم ميني", ingredients: "8 قطع سوبريم ميني - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/sandwich-meat.webp" },
+    { cat: "meals", sub: "jumbo", name: "وجبة جامبو كريسبي", ingredients: "10 قطع كريسبي - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/جامبو كريسبي.webp" },
+    { cat: "meals", sub: "jumbo", name: "وجبة جامبو اسكالوب", ingredients: "10 قطع اسكالوب - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/جامبو اسكالوب.webp" },
+    { cat: "meals", sub: "jumbo", name: "وجبة جامبو زنجر", ingredients: "10 قطع زنجر(سبايسي - ذرة) - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/standar.webp" },
+    { cat: "meals", sub: "jumbo", name: "وجبة جامبو سوبريم ميني", ingredients: "8 قطع سوبريم ميني - اكسترا بطاطا - مايونيز - كول سلو ", price: 1000, img: "/images/جامبو سوبريم.webp" },
 
     /* ---------- سلطات ---------- */
     { cat: "salads", name: "سلطة سيزر ", ingredients: "خس - صوص سيزر - دجاج - ميني توست - جبنة موزريلا", price: 400, img: "/images/سلطة سيزر.webp" },
