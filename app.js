@@ -70,7 +70,7 @@ if ("serviceWorker" in navigator) {
   });
 
   // Active section highlight via IntersectionObserver
-  const sections = ["home", "about", "menu", "contact"]
+  const sections = ["home", "about", "offer" , "menu", "contact"]
     .map((id) => document.getElementById(id))
     .filter(Boolean);
 
@@ -130,8 +130,9 @@ if ("serviceWorker" in navigator) {
 
 
   const orderBtn = e.target.closest(".order-btn");
+  const offerOrderBtn = e.target.closest(".offer-order-btn");
 
-  if (orderBtn) {
+  if (orderBtn || offerOrderBtn) {
     document
       .getElementById("contact")
       .scrollIntoView({ behavior: "smooth" });

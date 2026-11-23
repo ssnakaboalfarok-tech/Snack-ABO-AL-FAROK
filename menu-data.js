@@ -78,7 +78,7 @@ window.MENU = {
     { cat: "sandwiches", sub: "meat", name: "سندويش برجر لحمة مع جبنة", ingredients: "مايونيز - مخلل - كول سلو - خس - شيدر", price: 500, img: "/images/برغر لحمة.webp" },
     { cat: "sandwiches", sub: "meat", name: "سندويش برجر لحمة كامل", ingredients: "مايونيز - مخلل - كول سلو - خس - بيض - شيدر", price: 500, img: "/images/برغر لحمة.webp" },
     { cat: "sandwiches", sub: "meat", name: "سندويش سجق", ingredients: "سجق(لحم غنم) - مخلل", price: 350, img: "/images/سجق.webp" },
-    { cat: "sandwiches", sub: "meat", name: "سندويش توشكا", ingredients: "سجق(لحم غنم) - قشقوان", price: 450, img: "/images/سجق.webp" },
+    { cat: "sandwiches", sub: "meat", name: "سندويش توشكا", ingredients: "سجق(لحم غنم) - قشقوان", price: 400, img: "/images/سجق.webp" },
 
     /* ---------- وجبات: شخص ---------- */
 
